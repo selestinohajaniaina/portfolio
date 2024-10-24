@@ -1,0 +1,42 @@
+<div id="skills" class="w-3/4 md:w-2/3 text-justify p-3 flex flex-col gap-3 rounded-lg dark:bg-gray-800 my-4 mx-auto">
+    <h1 class="text-xl font-semibold">Skills</h1>
+    <div>
+        <h2 class="text-lg font-semibold">Developements</h2>
+        <div class="flex flex-wrap gap-3">
+            <button *ngFor="let item of dev" class="border border-gray-100/20 p-1 flex items-center w-fit max-h-10 overflow-hidden rounded-lg shadow-md cursor-pointer hover:-translate-y-1 transition-all duration-100 ease-linear">
+                <img class="max-w-8 px-1" alt="image de {{ item.label }}" src="assets/icons/svg/{{ item.img }}.svg">
+                <p class="w-full h-full flex items-center gap-2 px-1">{{ item.label }}</p>
+            </button>
+        </div>
+    </div>
+
+    <div>
+        <h2 class="text-lg font-semibold">Databases</h2>
+        <div class="flex flex-wrap gap-3">
+            <button *ngFor="let item of database" class="border border-gray-100/20 p-1 flex items-center w-fit max-h-10 overflow-hidden rounded-lg shadow-md cursor-pointer hover:-translate-y-1 transition-all duration-100 ease-linear">
+                <img class="max-w-8 px-1" alt="image de {{ item.label }}" src="assets/icons/svg/{{ item.img }}.svg">
+                <p class="w-full h-full flex items-center gap-2 px-1">{{ item.label }}</p>
+            </button>
+        </div>
+    </div>
+
+    <div>
+        <h2 class="text-lg font-semibold">Tools</h2>
+        <div class="flex flex-wrap gap-3">
+            <button *ngFor="let item of tools" class="border border-gray-100/20 p-1 flex items-center w-fit max-h-10 overflow-hidden rounded-lg shadow-md cursor-pointer hover:-translate-y-1 transition-all duration-100 ease-linear">
+                <img class="max-w-8 px-1" alt="image de {{ item.label }}" src="assets/icons/svg/{{ item.img }}.svg">
+                <p class="w-full h-full flex items-center gap-2 px-1">{{ item.label }}</p>
+            </button>
+        </div>
+    </div>
+
+    <div>
+        <h2 class="text-lg font-semibold">Environements</h2>
+        <div class="flex flex-wrap gap-3">
+            <button *ngFor="let item of env" class="border border-gray-100/20 p-1 flex items-center w-fit max-h-10 overflow-hidden rounded-lg shadow-md cursor-pointer hover:-translate-y-1 transition-all duration-100 ease-linear">
+                <img class="max-w-8 px-1" alt="image de {{ item.label }}" src="assets/icons/svg/{{ item.img }}.svg">
+                <p class="w-full h-full flex items-center gap-2 px-1">{{ item.label }}</p>
+            </button>
+        </div>
+    </div>
+</div>

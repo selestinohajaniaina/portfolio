@@ -1,0 +1,9 @@
+<div id="networks" class="w-3/4 md:w-2/3 text-justify p-3 flex flex-col gap-3 rounded-lg dark:bg-gray-800 my-4 mx-auto">
+    <h1 class="text-xl font-semibold">Networks</h1>
+    <div class="flex flex-wrap gap-3">
+        <a *ngFor="let item of networks" [href]="item.link" target="_blank" class="border border-gray-100/20 p-1 flex items-center w-fit max-h-10 overflow-hidden rounded-lg shadow-md cursor-pointer hover:-translate-y-1 transition-all duration-100 ease-linear">
+            <img class="max-w-8 px-1" alt="image de {{ item.label }}" src="assets/icons/svg/{{ item.img }}.svg">
+            <p class="w-full h-full flex items-center gap-2 px-1">{{ item.label }}</p>
+        </a>
+    </div>
+</div>
