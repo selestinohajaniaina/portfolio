@@ -19,10 +19,6 @@ export class SkillComponent {
       label: 'css'
     },
     {
-      img: 'bootstrap',
-      label: 'Bootstrap'
-    },
-    {
       img: 'tailwind',
       label: 'Tailwind'
     },
@@ -35,10 +31,6 @@ export class SkillComponent {
       label: 'Angular'
     },
     {
-      img: 'vue',
-      label: 'Vue.js'
-    },
-    {
       img: 'node',
       label: 'Node.js'
     },
@@ -49,6 +41,10 @@ export class SkillComponent {
     {
       img: 'ionic',
       label: 'Ionic'
+    },
+    {
+      img: 'typescript',
+      label: 'Typescript'
     }
   ];
 
@@ -75,7 +71,19 @@ export class SkillComponent {
     {
       img: 'github',
       label: 'Github'
-    }
+    },
+    {
+      img: 'bitbucket',
+      label: 'Bitbucket'
+    },
+    {
+      img: 'render',
+      label: 'Render'
+    },
+    {
+      img: 'netlify',
+      label: 'Netlify'
+    },
   ]
 
   public env: {img: string, label: string}[] = [
@@ -87,5 +95,28 @@ export class SkillComponent {
       img: 'windows',
       label: 'Windows'
     }
+  ] 
+
+  public web_utils: {img: string, label: string}[] = [
+    {
+      img: 'three',
+      label: 'Three.js'
+    },
+    {
+      img: 'bootstrap',
+      label: 'Bootstrap'
+    },
+    {
+      img: 'vue',
+      label: 'Vue.js'
+    },
+    {
+      img: 'jquery',
+      label: 'JQuery'
+    },
+    {
+      img: 'capacitor',
+      label: 'Capacitor'
+    },
   ] 
 }
