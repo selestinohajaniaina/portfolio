@@ -11,15 +11,21 @@ import { Component } from '@angular/core';
 export class ExperienceComponent {
   public experiences: {entreprise: string, description: string, stack: string, date: string}[] = [
     {
+      entreprise: 'SOMMET DigitAfrica',
+      description: 'Participation in the hackathon, 2nd place',
+      stack: 'PHP, Bootstrap, MySql',
+      date: 'February 2025'
+    },
+    {
       entreprise: 'Morabe Innovation Technology (MIT)',
       description: 'Stage for six month',
       stack: 'Vue.js, laravel, Ionic, MySql, Node.js, Angular, Tailwind, Git & Bitbucket',
-      date: 'Mars 2024'
+      date: 'March 2024'
     },
     {
       entreprise: 'Karoka.net',
       description: 'Stage for two month',
-      stack: 'Ionic, Angular, Node.js, SQLite, HTML, CSS',
+      stack: 'Ionic, Angular, Node.js, SQLite, MySql',
       date: 'February 2023'
     },
     {
@@ -31,13 +37,13 @@ export class ExperienceComponent {
     {
       entreprise: 'DevFest Majunga',
       description: 'Participation in the hackathon, 3rd place',
-      stack: 'PHP, HTML, CSS',
+      stack: 'PHP, HTML, CSS, MySql',
       date: 'December 2022'
     },
     {
       entreprise: 'Express in Code',
       description: 'Hackathon Participation and Certification',
-      stack: 'PHP, HTML, CSS',
+      stack: 'PHP, HTML, CSS, MySql',
       date: 'October 2022'
     }
   ]
