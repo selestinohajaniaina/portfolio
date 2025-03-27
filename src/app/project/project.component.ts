@@ -58,7 +58,7 @@ export class ProjectComponent {
       code: 'https://github.com/selestinohajaniaina/mother-earth'
     },
     {
-      title: 'BUS-MJ',
+      title: 'BUS-MJ API',
       content: 'Bus Traffic API for Mahajanga.',
       stack: 'Node.js',
       img: 'bus-mj.png',
@@ -67,7 +67,7 @@ export class ProjectComponent {
       code: 'https://github.com/selestinohajaniaina/bus-mahajanga-api/'
     },
     {
-      title: 'BUS-MJ',
+      title: 'World 3D',
       content: 'Web application for displaying the Earth globe in 3D.',
       stack: 'Three.js',
       img: 'world_3d.png',
@@ -119,6 +119,15 @@ export class ProjectComponent {
       date: 'Aou 2023',
       link: 'https://web.facebook.com/selestino.hajaniain/posts/137171556095968',
       code: 'https://github.com/selestinohajaniaina/i-cuisine'
+    },
+    {
+      title: 'Ankamantatra',
+      content: 'Malagasy\'s quiz game.',
+      stack: 'Angular, Ionic, MySql, Express, Sequelize, Node.js',
+      img: 'ankamantatra.jpg',
+      date: 'March 2025',
+      link: 'https://ankamantatra.netlify.app',
+      code: 'https://github.com/selestinohajaniaina/Ankamantatra'
     },
   ]
 
