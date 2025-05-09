@@ -19,7 +19,7 @@ export class ProfilComponent {
     },
     {
       title: 'Phone',
-      content: '+261 37 68 718 26'
+      content: '+261 32 41 109 23'
     },
     {
       title: 'State',
