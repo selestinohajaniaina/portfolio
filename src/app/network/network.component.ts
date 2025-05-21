@@ -21,7 +21,7 @@ export class NetworkComponent {
       label: 'Github'
     },
     {
-      link: 'https://www.facebook.com/selestino.hajaniain',
+      link: 'https://www.facebook.com/selestino.hajaniaina',
       img: 'facebook',
       label: 'Facebook'
     },
