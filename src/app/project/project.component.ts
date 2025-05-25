@@ -94,7 +94,7 @@ export class ProjectComponent {
       code: 'https://github.com/selestinohajaniaina/scan_hand'
     },
     {
-      title: 'Scan hand GAME',
+      title: 'Dino hand GAME',
       content: 'Dino control with one hand.',
       stack: 'Python',
       img: 'dino.png',
