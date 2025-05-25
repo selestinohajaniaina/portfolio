@@ -22,15 +22,6 @@ export class ProjectComponent {
       code: 'https://github.com/selestinohajaniaina/lycee.mousquetaire'
     },
     {
-      title: 'Weather',
-      content: 'Web application for weather updates in Madagascar.',
-      stack: 'HTML, CSS',
-      img: 'weather.png',
-      date: 'Jan 2023',
-      link: 'https://weather-mada.netlify.app/',
-      code: 'https://github.com/selestinohajaniaina/weatherAPI'
-    },
-    {
       title: 'World\'s news',
       content: 'Mobile application for news journals around the world.',
       stack: 'Angular, Ionic',
