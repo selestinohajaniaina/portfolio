@@ -85,10 +85,10 @@ export class ProjectComponent {
       code: 'https://github.com/selestinohajaniaina/ToDoList'
     },
     {
-      title: 'BUS-MJ',
+      title: 'Bus Nakay',
       content: 'Mobile application for Bus Traffic in Mahajanga.',
       stack: 'Angular, Ionic',
-      img: 'bus.png',
+      img: 'bus.jpg',
       date: 'Jan 2024',
       link: 'https://web.facebook.com/selestino.hajaniain/posts/232517403228049',
       code: 'https://github.com/selestinohajaniaina/ToDoList'
@@ -125,7 +125,7 @@ export class ProjectComponent {
       content: 'Malagasy\'s quiz game.',
       stack: 'Angular, Ionic, MySql, Express, Sequelize, Node.js',
       img: 'ankamantatra.jpg',
-      date: 'March 2025',
+      date: 'Mar 2025',
       link: 'https://ankamantatra.netlify.app',
       code: 'https://github.com/selestinohajaniaina/Ankamantatra'
     },

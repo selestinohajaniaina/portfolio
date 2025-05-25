@@ -18,12 +18,8 @@ export class ProfilComponent {
       `
     },
     {
-      title: 'Phone',
-      content: '+261 37 68 718 26'
-    },
-    {
       title: 'State',
-      content: 'Madagascar'
+      content: 'Majunga - Madagascar'
     }
   ]
 
