@@ -50,6 +50,10 @@ export class SkillComponent {
 
   public database: {img: string, label: string}[] = [
     {
+      img: 'postgres',
+      label: 'PostgreSql'
+    },
+    {
       img: 'mysql',
       label: 'MySql'
     },
@@ -83,6 +87,10 @@ export class SkillComponent {
     {
       img: 'netlify',
       label: 'Netlify'
+    },
+    {
+      img: 'figma',
+      label: 'figma'
     },
   ]
 

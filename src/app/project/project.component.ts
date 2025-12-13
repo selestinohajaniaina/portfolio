@@ -11,15 +11,60 @@ import { Component } from '@angular/core';
 export class ProjectComponent {
   public pdp: string = 'pdp.jpg';
   public name: string = 'Selestino Hajaniaina';
-  public projects: {title: string, content: string, stack: string, img: string | null, date: string, link: string | null, code: string}[] = [
+  public projects: {title: string, content: string, stack: string, img: string | null, date: string, link: string | null, code: string | null}[] = [
     {
-      title: 'LPC Besakoa',
-      content: 'Website for a private high school in Mahajanga',
-      stack: 'HTML, CSS',
-      img: 'lpc.png',
-      date: 'Jan 2023',
-      link: 'https://lpc-boeny.netlify.app/',
-      code: 'https://github.com/selestinohajaniaina/lycee.mousquetaire'
+      title: 'iPass',
+      content: 'Check-in at the American Corner Mahajanga (in collaboration with the STEM Club).',
+      stack: 'Angular, Tailwindcss, Node.js',
+      img: 'acm.png',
+      date: 'Nov 2025',
+      link: 'https://acm-backoffice.lazygeko.app/',
+      code: null
+    },
+    {
+      title: 'BOB :)',
+      content: 'Bob is an AI-based UML generator.',
+      stack: 'Angular, Tailwindcss',
+      img: 'bob.png',
+      date: 'Oct 2025',
+      link: 'https://bob-mg.vercel.app',
+      code: 'https://github.com/selestinohajaniaina/BOB'
+    },
+    {
+      title: 'KNTN',
+      content: 'Software for tracking transportation expenses.',
+      stack: 'Angular, Ionic, Tailwindcss, MySql, Express, Sequelize, Node.js',
+      img: 'kntn.png',
+      date: 'Oct 2025',
+      link: 'https://transport-kintana.netlify.app/',
+      code: null
+    },
+    {
+      title: 'Gasy Quiz',
+      content: 'Malagasy\'s quiz game.',
+      stack: 'HTML, CSS, Javascript',
+      img: 'gasy-quiz.png',
+      date: 'Jun 2025',
+      link: 'https://selestinohajaniaina.github.io/GASY-QUIZ/',
+      code: 'https://github.com/selestinohajaniaina/GASY-QUIZ'
+    },
+    {
+      title: 'Laniko',
+      content: 'Personal expense management application.',
+      stack: 'Angular, Ionic, dexie.js',
+      img: 'laniko.jpg',
+      date: 'May 2025',
+      link: 'https://ankamantatra.netlify.app',
+      code: 'https://github.com/selestinohajaniaina/laniko'
+    },
+    {
+      title: 'Ankamantatra',
+      content: 'Malagasy\'s quiz game.',
+      stack: 'Angular, Ionic, MySql, Express, Sequelize, Node.js',
+      img: 'ankamantatra.jpg',
+      date: 'Mar 2025',
+      link: 'https://ankamantatra.netlify.app',
+      code: 'https://github.com/selestinohajaniaina/Ankamantatra'
     },
     {
       title: 'World\'s news',
@@ -31,22 +76,13 @@ export class ProjectComponent {
       code: 'https://github.com/selestinohajaniaina/openActivity'
     },
     {
-      title: 'Awesome-Team',
-      content: 'Integration of the proposed design.',
-      stack: 'Angular, Tailwind',
-      img: 'awesome.png',
-      date: 'Dec 2023',
-      link: null,
-      code: 'https://github.com/selestinohajaniaina/awesome-team'
-    },
-    {
-      title: 'Mother-Earth',
-      content: 'Template integration exercise.',
-      stack: 'HTML, Tailwind',
-      img: 'mother.png',
-      date: 'Dec 2023',
-      link: 'https://selestinohajaniaina.github.io/mother-earth',
-      code: 'https://github.com/selestinohajaniaina/mother-earth'
+      title: 'Bus Nakay',
+      content: 'Mobile application for Bus Traffic in Mahajanga.',
+      stack: 'Angular, Ionic',
+      img: 'bus.jpg',
+      date: 'Jan 2024',
+      link: 'https://web.facebook.com/selestino.hajaniain/posts/232517403228049',
+      code: 'https://github.com/selestinohajaniaina/bus-mj'
     },
     {
       title: 'BUS-MJ API',
@@ -56,33 +92,6 @@ export class ProjectComponent {
       date: 'Dec 2023',
       link: 'https://www.npmjs.com/package/bus-mj',
       code: 'https://github.com/selestinohajaniaina/bus-mahajanga-api/'
-    },
-    {
-      title: 'World 3D',
-      content: 'Web application for displaying the Earth globe in 3D.',
-      stack: 'Three.js',
-      img: 'world_3d.png',
-      date: 'Jan 2024',
-      link: 'https://world-3d.netlify.app/',
-      code: 'https://github.com/selestinohajaniaina/world3d'
-    },
-    {
-      title: 'ToDoList',
-      content: 'Web application for taking note of to-do lists.',
-      stack: 'php, mysql, Jquery, ajax, tailwind',
-      img: null,
-      date: 'Jan 2024',
-      link: null,
-      code: 'https://github.com/selestinohajaniaina/ToDoList'
-    },
-    {
-      title: 'Bus Nakay',
-      content: 'Mobile application for Bus Traffic in Mahajanga.',
-      stack: 'Angular, Ionic',
-      img: 'bus.jpg',
-      date: 'Jan 2024',
-      link: 'https://web.facebook.com/selestino.hajaniain/posts/232517403228049',
-      code: 'https://github.com/selestinohajaniaina/ToDoList'
     },
     {
       title: 'Scan hand GAME',
@@ -112,14 +121,50 @@ export class ProjectComponent {
       code: 'https://github.com/selestinohajaniaina/i-cuisine'
     },
     {
-      title: 'Ankamantatra',
-      content: 'Malagasy\'s quiz game.',
-      stack: 'Angular, Ionic, MySql, Express, Sequelize, Node.js',
-      img: 'ankamantatra.jpg',
-      date: 'Mar 2025',
-      link: 'https://ankamantatra.netlify.app',
-      code: 'https://github.com/selestinohajaniaina/Ankamantatra'
+      title: 'LPC Besakoa',
+      content: 'Website for a private high school in Mahajanga',
+      stack: 'HTML, CSS',
+      img: 'lpc.png',
+      date: 'Jan 2023',
+      link: 'https://lpc-boeny.netlify.app/',
+      code: 'https://github.com/selestinohajaniaina/lycee.mousquetaire'
     },
+    // {
+    //   title: 'Awesome-Team',
+    //   content: 'Integration of the proposed design.',
+    //   stack: 'Angular, Tailwind',
+    //   img: 'awesome.png',
+    //   date: 'Dec 2023',
+    //   link: null,
+    //   code: 'https://github.com/selestinohajaniaina/awesome-team'
+    // },
+    // {
+    //   title: 'Mother-Earth',
+    //   content: 'Template integration exercise.',
+    //   stack: 'HTML, Tailwind',
+    //   img: 'mother.png',
+    //   date: 'Dec 2023',
+    //   link: 'https://selestinohajaniaina.github.io/mother-earth',
+    //   code: 'https://github.com/selestinohajaniaina/mother-earth'
+    // },
+    // {
+    //   title: 'World 3D',
+    //   content: 'Web application for displaying the Earth globe in 3D.',
+    //   stack: 'Three.js',
+    //   img: 'world_3d.png',
+    //   date: 'Jan 2024',
+    //   link: 'https://world-3d.netlify.app/',
+    //   code: 'https://github.com/selestinohajaniaina/world3d'
+    // },
+    // {
+    //   title: 'ToDoList',
+    //   content: 'Web application for taking note of to-do lists.',
+    //   stack: 'php, mysql, Jquery, ajax, tailwind',
+    //   img: null,
+    //   date: 'Jan 2024',
+    //   link: null,
+    //   code: 'https://github.com/selestinohajaniaina/ToDoList'
+    // },
   ]
 
 }
