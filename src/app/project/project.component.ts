@@ -54,7 +54,7 @@ export class ProjectComponent {
       stack: 'Angular, Ionic, dexie.js',
       img: 'laniko.jpg',
       date: 'May 2025',
-      link: 'https://ankamantatra.netlify.app',
+      link: null,
       code: 'https://github.com/selestinohajaniaina/laniko'
     },
     {
