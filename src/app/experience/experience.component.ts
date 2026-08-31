@@ -6,45 +6,57 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './experience.component.html',
-  styleUrl: './experience.component.css'
+  styleUrl: './experience.component.css',
 })
 export class ExperienceComponent {
-  public experiences: {entreprise: string, description: string, stack: string, date: string}[] = [
+  public experiences: {
+    entreprise: string;
+    description: string;
+    stack: string;
+    date: string;
+  }[] = [
+    {
+      entreprise: 'Osmosis Business Solutions Océan Indien',
+      description: 'Lead Developer – Mahajanga',
+      stack: 'Omnis Studio, PostgreSQL, DBeaver',
+      date: 'August 2025 – August 2026',
+    },
     {
       entreprise: 'SOMMET DigitAfrica',
-      description: 'Participation in the hackathon, 2nd place',
-      stack: 'PHP, Bootstrap, MySql',
-      date: 'February 2025'
+      description: 'Hackathon participant – 2nd place',
+      stack: 'PHP, Bootstrap, MySQL',
+      date: 'February 2025',
     },
     {
       entreprise: 'Morabe Innovation Technology (MIT)',
-      description: 'Stage for six month',
-      stack: 'Vue.js, laravel, Ionic, MySql, Node.js, Angular, Tailwind, Git & Bitbucket',
-      date: 'March 2024'
+      description: 'Six-month internship as a Web & Mobile Developer',
+      stack:
+        'Vue.js, Laravel, Ionic, MySQL, Node.js, Angular, Tailwind CSS, Git, Bitbucket',
+      date: 'March – August 2024',
     },
     {
       entreprise: 'Karoka.net',
-      description: 'Stage for two month',
-      stack: 'Ionic, Angular, Node.js, SQLite, MySql',
-      date: 'February 2023'
+      description: 'Two-month internship as a Web & Mobile Developer',
+      stack: 'Ionic, Angular, Node.js, SQLite, MySQL',
+      date: 'February – March 2023',
     },
     {
       entreprise: 'Nordine Collect',
-      description: 'Development of an application for managing fish entry and exit',
-      stack: 'PHP, Bootstrap, Javascript, MySql',
-      date: 'June 2023'
+      description: 'Development of a fish inventory management application',
+      stack: 'PHP, Bootstrap, JavaScript, MySQL',
+      date: 'June 2023',
     },
     {
       entreprise: 'DevFest Majunga',
-      description: 'Participation in the hackathon, 3rd place',
-      stack: 'PHP, HTML, CSS, MySql',
-      date: 'December 2022'
+      description: 'Hackathon participant – 3rd place',
+      stack: 'PHP, HTML, CSS, MySQL',
+      date: 'December 2022',
     },
     {
       entreprise: 'Express in Code',
-      description: 'Hackathon Participation and Certification',
-      stack: 'PHP, HTML, CSS, MySql',
-      date: 'October 2022'
-    }
-  ]
+      description: 'Hackathon participant and certified participant',
+      stack: 'PHP, HTML, CSS, MySQL',
+      date: 'October 2022',
+    },
+  ];
 }
