@@ -90,7 +90,11 @@ export class SkillComponent {
     },
     {
       img: 'figma',
-      label: 'figma'
+      label: 'Figma'
+    },
+    {
+      img: 'dbeaver',
+      label: 'DBeaver'
     },
   ]
 
@@ -125,6 +129,18 @@ export class SkillComponent {
     {
       img: 'capacitor',
       label: 'Capacitor'
+    },
+    {
+      img: 'numpy',
+      label: 'Numpy'
+    },
+    {
+      img: 'tensorflow',
+      label: 'Tensorflow'
+    },
+    {
+      img: 'keras',
+      label: 'Keras'
     },
   ] 
 }
